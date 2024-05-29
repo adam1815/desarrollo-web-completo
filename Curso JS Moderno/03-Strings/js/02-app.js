@@ -1,0 +1,9 @@
+// metodos para los string
+const producto = "Monitor 20\"";
+console.log(producto);
+console.log(producto.length);// muestra la cantidad de caracteres que contiene la cadena... 
+
+
+console.log(producto.indexOf('Monitor'));//muestra en que posicion se encuentra la cadena...
+console.log(producto.includes("Monitor"));// muestra si la cadena exites distingue mayuscula de minuscula...
+
